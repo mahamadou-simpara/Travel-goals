@@ -1,0 +1,15 @@
+body{
+    font-family: "Quicksnad", sans-serif;
+    margin: 0;
+}
+#logo-page a {
+    font-family: 'Oleo Script', sans-serif;
+    color: rgb(149, 149, 49);
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-transform: uppercase ;
+    /* cursor: zoom-in; */
+    
+}
