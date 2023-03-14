@@ -13,3 +13,30 @@ body{
     /* cursor: zoom-in; */
     
 }
+ul{
+    list-style: none;
+}
+header{
+display: flex;
+/* border: 3px solid black; */
+justify-content: space-evenly;
+
+}
+ul{
+display: flex;
+text-align: right;
+margin-left: 1300px;
+/* border: 3px solid black; */
+text-align: center;
+}
+li{
+padding: 10px;
+}
+ul a{
+text-decoration: none;
+color: black;
+}
+ul :hover{
+    text-decoration: underline;
+    color: rgb(120, 0, 0);
+    }
