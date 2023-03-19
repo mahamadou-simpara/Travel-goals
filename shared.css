@@ -14,7 +14,7 @@ header h1{
     color: rgb(144, 174, 164);
     text-transform: uppercase;
     text-shadow: 0.5px 1px 1px;
-    font-size: 40px;
+ font-size: 40px;
  margin: 10px;
 }
 
@@ -22,7 +22,7 @@ header ul{
  display: flex; 
  justify-content: space-between;
  list-style: none;                      
- 
+
 }
 header ul a:hover{
 color: white;
@@ -37,4 +37,15 @@ header li{
 header a{
  text-decoration: none; 
  color: rgb(144, 174, 164);
+}
+/* Main Body */
+main li img{
+width: 200px;
+height: 200px;
+}
+main div{
+color: white
+}
+main ul{
+list-style: none;
 }
