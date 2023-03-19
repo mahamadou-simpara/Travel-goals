@@ -39,13 +39,29 @@ header a{
  color: rgb(144, 174, 164);
 }
 /* Main Body */
-main li img{
-width: 200px;
-height: 200px;
-}
-main div{
-color: white
-}
 main ul{
 list-style: none;
+}
+main li{
+ background-color: white;
+ width: 700px;
+ display: flex;
+ border-radius: 3px;
+ overflow: hidden;
+}
+
+main ul div{
+ padding: 20px;
+ position: relative;
+}
+main li img{
+width: 300px;
+height: 300px;
+}
+
+main ul div a{
+ text-decoration: none;
+ color: rgb(144, 174, 164);
+ top: 100px;
+ font-weight: 300;
 }
