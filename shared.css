@@ -1,0 +1,40 @@
+body{
+ margin: 0;
+ background-color: rgb(43, 43, 43);
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+}
+
+header h1{
+    font-family: "raleway" sans-serif ;
+    color: rgb(144, 174, 164);
+    text-transform: uppercase;
+    text-shadow: 0.5px 1px 1px;
+    font-size: 40px;
+ margin: 10px;
+}
+
+header ul{
+ display: flex; 
+ justify-content: space-between;
+ list-style: none;                      
+ 
+}
+header ul a:hover{
+color: white;
+text-decoration: underline;
+background-color:  rgb(144, 174, 164);
+border-radius: 4px;
+}
+header li{
+ margin: 10px 30px;
+
+}
+header a{
+ text-decoration: none; 
+ color: rgb(144, 174, 164);
+}

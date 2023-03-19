@@ -1,10 +1,11 @@
 body{
     font-family: "Quicksnad", sans-serif;
     margin: 0;
+    max-width: 100%;
 }
 #logo-page a {
     font-family: 'Oleo Script', sans-serif;
-    color: rgb(149, 149, 49);
+    color: hsl(60, 51%, 39%);
     text-decoration: none;
     font-size: 50px;
     padding: 10px;
@@ -20,11 +21,27 @@ header{
 display: flex;
 /* border: 3px solid black; */
 justify-content: space-between;
+position: absolute;
+width: 100%;
+box-sizing: border-box;
 }
+
+header ul a {
+ color: rgb(197, 197, 6);
+ text-shadow: 1px 2px 2px rgb(0, 0, 0);
+ 
+}
+header ul a:hover{
+ color: rgb(255, 255, 255);
+ background-color: rgb(195, 195, 4);
+ border-radius: 2px;
+ 
+}
+
 ul{
 display: flex;
 /* text-align: right; */
-/* margin-left: -220px; */
+margin-right: 20px;
 /* border: 3px solid black; */
 /* text-align: center; */
 justify-content: flex-start;
@@ -38,7 +55,7 @@ ul a{
 text-decoration: none;
 color: black;
 }
-ul :hover{
+ul a:hover{
 text-decoration: underline;
 color: rgb(120, 0, 0);
 }
@@ -61,14 +78,88 @@ padding: 50px;
 position: relative;
 top: 200px;
 }
+#hero-content h1{
+ text-transform: uppercase;
+ color: white;
+ font-size: 40px;
+ font-family: "raleway" sans-serif;
+}
 
 #hero-content a{
  text-decoration: none;
- color: white;
+ color: rgb(31, 29, 29);
  padding: 10px;
+ font-weight: 700;
  border-radius: 3px;
- background-color: rgb(164, 164, 7);
+ background-color: rgb(197, 197, 6);
 }
 #hero-content p{
- margin-bottom: 20px;
+ text-transform: uppercase;
+ color: white;
+ font-weight: 50;
+ margin-bottom: 35px;
+}
+#hero-content a:hover{
+ background-color: rgb(242, 242, 2);
+ color: white;
+}
+/* Section 2 */
+
+#highlights{
+text-align: center;
+text-transform: uppercase;
+background: linear-gradient(0deg, rgb(240, 255, 250),rgb(161, 254, 220));
+padding: 25px;
+}
+
+#highlights h2{
+font-size: 50px;
+font-weight: 100;
+}
+#destinations{
+ width: 90%;
+ justify-content: space-evenly;
+ margin-left: 0;
+ margin: auto;
+ padding: 0;
+}
+
+.cities img{
+ height: 200px;
+ width: 100%;
+ box-shadow: 2px 3px 6px rgb(60, 58, 58);
+ border-radius: 8px;
+ object-fit: cover;
+}
+
+#destinations p{
+text-align: center;
+text-transform: uppercase;
+font-weight: 100;
+font-size: 20px;
+}
+
+#destinations strong{
+    color: rgb(56, 193, 143);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Footer of the page  */
+footer{
+ background: linear-gradient(70deg, rgb(40, 39, 39), rgb(21, 20, 20));
+}
+footer ul{
+justify-content: center;
+padding: 40px 0;
+margin: 0;
+}
+footer li{
+    height: 50px;
+    width: 50px;
+    margin: 0 30px;
+}
+footer img{
+    height: 100%;
+    width: 100%;
+
 }
