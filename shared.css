@@ -54,11 +54,12 @@ gap: 30px 30px;
 }
 main li{
  background-color: white;
- width: 700px;
+ width: 100%;
  display: flex;
  border-radius: 3px;
  overflow: hidden;
 }
+
 
 main ul div{
  padding: 20px;
@@ -90,4 +91,21 @@ main ul div a{
 .anchor-tag-card a:hover{
     color: rgb(196, 242, 226);
     background-color: rgb(159, 186, 177);
+}
+/* Footer */
+
+
+footer ul{
+display: flex;
+list-style: none;
+justify-content: center;
+background-color: rgb(85, 85, 85);
+}
+footer li{
+ text-align: center;
+ padding: 40px;
+}
+
+footer ul img{
+width: 100px;
 }
