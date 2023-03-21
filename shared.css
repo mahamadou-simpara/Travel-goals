@@ -41,6 +41,16 @@ header a{
 /* Main Body */
 main ul{
 list-style: none;
+width: 95%;
+margin: auto;
+padding: 0;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px 30px;
+}
+:nth-child(3){
+ grid-column-start: 1;
+ grid-column-end: 3;
 }
 main li{
  background-color: white;
